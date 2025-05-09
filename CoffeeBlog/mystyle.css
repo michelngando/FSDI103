@@ -1,0 +1,180 @@
+/*global*/
+*{
+    margin: 0;
+}
+body{
+    font-family: Arial;
+    }
+p{
+    line-height: 2;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+
+
+/*utilities*/
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn{
+    display: block;
+    color: white;
+    text-decoration: none;
+    width: 100px;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.btn-read{
+    display: block;    
+    background-color: black;   
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+}
+
+.btn-more{
+    background-color: brown;
+    color: white;
+    width: 200px;
+}
+
+
+/*header*/
+.site-header{
+    background-image: url(img/banner.jpg);
+    height: 300px;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+
+/*menu*/
+.menu a{
+    color: white;
+    margin-right: 30px;
+}
+
+.nav-bar{
+    margin-top: 40px;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+.nav-bar a{
+    margin-bottom: 20px;
+    margin-top: -2px;
+}
+
+
+/*footer*/
+.site-footer{
+    height: 80px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    max-width: 100%;
+    
+}
+
+
+/*main*/
+.main-flex{
+    display: flex;
+}
+.main-flex-courses{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    
+}
+
+.blog-container{
+    width: 60%;
+    margin-right: 20px;  
+}
+
+.courses-container{
+    width: 40%;
+}
+
+.blog-item{
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
+}
+
+
+/*about*/
+.about-item{
+    display: flex;    
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: medium;
+    font-style: bold;
+    
+   
+}
+
+/*contact*/ 
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.form{
+    background-color: white;
+    padding: 20px;
+    margin-top: -50px;
+}
+
+.input-container{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.input-container label{
+    width: 20%;
+}
+
+.input-container input, .input-container textarea{
+    padding: 5px;
+    border: 1px solid gray;
+    width: 80%;
+}
+
+/*courses*/ 
+
+.course-container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.input-container{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.input-container label{
+    width: 20%;
+}
+
+.input-container input, .input-container textarea{
+    padding: 5px;
+    border: 1px solid gray;
+    width: 80%;
+}
+

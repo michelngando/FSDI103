@@ -1,0 +1,232 @@
+/*global*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+    color:white;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+/*utilities*/
+.container{
+    width:95%;
+    margin:0 auto;
+}
+@media (min-width: 768px){
+    .container{
+        width: 80%;
+    }
+}
+.read-btn{
+    text-transform: uppercase;
+    font-size: 13px;
+    color:white;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+/*nav*/
+nav.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    height: 50px;
+}
+nav .logo{
+    display:none;/*hide*/
+}
+nav .frame{
+    height: 30px;
+    padding-left:15px;
+}
+@media(min-width:768px){
+    nav .logo{
+        display: block;
+        height: 38px;
+        padding-left:15px;
+    }
+    nav .frame{
+        display: none;
+    }
+}
+a.link-login{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-right: 20px;
+    color:black;
+}
+a.link-search{
+    display:none;
+}
+a.link-subs{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-right: 20px;
+    background-color: black;
+    color:white;
+    padding:15px;
+}
+a.link-subs:hover{
+    color:black;
+    background-color: #ffcc00;
+}
+a.link-menu{
+    display:none;
+}
+a.link-arrows{
+    color: black;
+    margin-right: 20px;
+}
+a.link-news{
+    display: none;
+}
+
+@media(min-width:768px){
+    
+    a.link-search{
+        display:inline-block;        
+    }
+    
+}
+/*header*/
+
+/*main-news*/
+
+.main-news{
+    position: relative; /*relative*/
+}
+.main-news-img{
+    height: 400px;
+    width:100%;
+    margin-bottom: 10px;
+}
+.main-news-img img{
+    max-height:100%;
+    width: 100%;
+}
+.main-news-text {
+    position:absolute;/*child*/
+    top:160px;
+    left:20px;
+}
+.main-news-text h3{
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+}
+.main-news-text h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.main-news-text p{
+    margin-top: 10px;
+    font-size: 35px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+@media(min-width:768px){
+    .main-flex{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
+
+
+.secondary-news{
+    height: 400px;
+}
+@media(min-width:768px){
+    .secondary-news:first-of-type{
+        flex-basis:50%;
+        margin-right: 10px;
+    }
+    .secondary-news:last-of-type{
+        flex-basis:50%;
+        margin-left: 10px;
+    }
+}
+.secondary-news img{
+    height: 250px;
+    width: 100%;
+    margin-bottom: 0;
+}
+.secondary-news-text{
+    height: 140px;
+    background-color: white;
+    color:black;
+    margin-top: -22px;
+    padding: 10px;
+}
+.secondary-news-text h3{
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 3px;
+    color:gray;
+}
+.secondary-news-text h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.secondary-news-text p{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.secondary-news .read-btn{
+    color:black;
+}
+
+.secondary-news-img{
+    overflow: hidden;
+}
+.secondary-news:hover img{
+    transform: scale(1.5);
+}
+@media(min-width:768px){
+    .secondary-news-container{
+        display: flex;
+    }
+}
+
+/*todays picks*/ 
+
+.todays-picks h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    border-left: 5px solid #ffcc00;
+    padding-left:20px;
+    letter-spacing: 3px;
+}
+.pick-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pick-item img{
+    width:90px;
+    height: 90px;
+}
+.pick-item-text{
+    width:350px;
+    color:white;
+}
+.pick-item-text h3{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.pick-item-text a{
+    color:white;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
