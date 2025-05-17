@@ -1,0 +1,13 @@
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+h1{
+    text-align: center;
+    padding-top: 15%;
+    margin-bottom: 4rem;
+}
+button{
+    background-color:aquamarine
+}

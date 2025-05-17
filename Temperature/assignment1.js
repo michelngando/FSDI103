@@ -31,3 +31,19 @@ work = action1+", "+action2+", "+ action3+", "+  action4
 console.log("I'm a "+ actor +"." + " I " + action1 + " holes for a living.")
 console.log(action1 + " is a generous word, really. I "+ action2 +" things up so we can go deeper. " + work + " then repeat.")
 console.log("The mine is called "+ workPlace +". " +"It's "+ duration + " hours away from any tourist map." )
+
+
+//BAsic Function Exxample
+
+function sayHello(){
+    console.log("Hello, world!")
+    }
+
+    sayHello();
+
+
+function greet(name){
+    return "Hello " + name + "!";
+}
+
+console.log (greet(Michel))
