@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+}
+button{
+   padding-top: .5rem;
+   padding-bottom: .5rem;
+   background-color: aquamarine;
+   
+}
+
+
+
+body{
+    background-image: url(./weather.jpg);
+    height: 300px;
+    background-size: cover;
+    color: black;
+    text-align: center;
+}
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}

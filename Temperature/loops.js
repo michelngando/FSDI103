@@ -49,5 +49,7 @@ function passwordPrompt(){
     do{
         userInput = prompt("Enter your password: ");
         notification+="User entered: " + userInput;
-    }while(userInput != correctPassword)
+    }while(userInput != correctPassword);
+
+    document.write
 }
